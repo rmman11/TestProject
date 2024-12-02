@@ -6,7 +6,7 @@ const YouTubeSearch = ({ onVideoSelect }) => {
     const [searchTerm, setSearchTerm] = useState("");
     const [videos, setVideos] = useState([]);
 
-    const API_KEY = "AIzaSyDnizMQygIaA8Zj-34qO3dewvkjjdPT27s"; // Înlocuiește cu cheia ta API
+    const API_KEY = "here is your key"; // API
 
     const searchYouTube = async () => {
         try {
