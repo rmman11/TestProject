@@ -1,0 +1,80 @@
+.text-white {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+
+  
+  .calculator {
+    width: 550px;
+    padding: 10px;
+    background-color: aqua;
+  }
+  
+  
+  .other-btns > button {
+    height: 100px;
+    width: 100%;
+  }
+  
+  .AC-btn {
+    margin-top: 10px;
+  }
+  
+  .input-field,
+  .answer-field {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    text-align: left;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .answer-field {
+    margin-top: 10px;
+  }
+  
+  .btn-wrapper {
+    margin-top: 10px;
+  }
+  
+  .btn-container {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    width: 24%;
+    height: 100px;
+    padding: 20px;
+    font-size: 30px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .colored-btn {
+    background-color: aqua;
+    color: black;
+  }
+  
+  .colored-btn:active {
+    background-color: chocolate;
+    color: white;
+  }
+  
+  .span-two {
+    width: 50%;
+  }
+  
+  button:active {
+    background: lightgray;
+  }
